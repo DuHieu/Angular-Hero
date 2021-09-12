@@ -1,0 +1,29 @@
+button{
+  margin-top: 20px;
+  margin: 10px;
+  width: 100px;
+}
+input, label{
+   margin-left: 10px;
+ }
+span{
+  margin-left: 10px;
+}
+
+button {
+
+  margin-top: 20px;
+  margin-right: .5rem;
+  background-image: linear-gradient(to top,rgb(0, 0, 0), rgb(95, 70, 70));
+  padding: 0.3rem;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+}
+button:hover {
+  background-image: linear-gradient(to bottom,rgb(0, 0, 0), rgb(95, 70, 70));
+}
+button:disabled {
+  background-color: rgb(255, 255, 255);
+  color: #ccc;
+  cursor: auto;
+}
