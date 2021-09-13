@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { pipe } from 'rxjs';
 
 import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
@@ -24,7 +25,9 @@ export class HeroesComponent implements OnInit {
 
   add(name: string): void {
     name = name.trim();
-    if (!name) { return; }
+    if (!name) {
+      alert ("Name cannot be left blank")
+      return; }
     this.heroService.addHero({ name } as Hero)
       .subscribe(hero => {
         this.heroes.push(hero);

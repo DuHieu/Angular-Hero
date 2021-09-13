@@ -1,6 +1,6 @@
 .heroes{
   list-style-type: none;
-  padding: 0%;
+  /* padding: 0%; */
   /* width: 15em; */
   /* margin: auto; */
 
@@ -33,7 +33,7 @@
   display: inline-block;
   font-size: small;
   color: white;
-  padding: 10px 10px 0px 10px ;
+  padding: 10px 10px 24px 10px ;
   background-color:#153c66;
 
 
@@ -43,7 +43,7 @@
 }
 button.delete {
 
-  background-color: rgb(191, 240, 240);
+  background-color: rgb(208, 211, 211);
   color:  #525252;
 
 }
@@ -64,4 +64,8 @@ button.add:hover {
     background-color: rgb(191, 240, 240);
 
   color: white;
+}
+label{
+  margin-left: 10px;
+  margin-top: 4rem;
 }

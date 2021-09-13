@@ -6,7 +6,6 @@ nav a{
   display: inline-block;
   color: #fafafa;
   border-radius: 4px;
-  margin-left: 1rem;
 
 }
 nav a:hover{
@@ -20,3 +19,4 @@ h1{
   color: rgb(211, 22, 22);
 
 }
+
